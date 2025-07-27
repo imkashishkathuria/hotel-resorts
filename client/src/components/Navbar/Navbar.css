@@ -1,0 +1,38 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+}
+
+.logo{
+    width: 228px;
+    height: 58px;
+    object-fit:contain;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon-img{
+    width: 14px;
+    height: 7px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+
+}
+.nav ul li{
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 16px;
+    align-items: center;
+    transition: transform 0.2s ease;
+}

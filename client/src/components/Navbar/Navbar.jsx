@@ -24,7 +24,7 @@ const Navbar = () => {
       <img src='/logo.png' className='logo' />
       <div className='nav'>
         <ul>
-          <div className='icon'>
+          <div className='icon' onClick={() => navigate("/")}>
             <li>Home</li>
             <img src='XMLID_55_ (1).png' className='icon-img' />
           </div>

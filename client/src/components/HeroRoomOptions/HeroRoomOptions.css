@@ -1,0 +1,32 @@
+.hero-room-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 50px 50px;
+}
+.hero-room-line{
+    border-left: 2px solid;
+    border-color: rgba(191, 151, 102, 1);
+    height: 105px;
+}
+.hero-room-container p{
+    color: rgba(191, 151, 102, 1);
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.hero-room-container h1{
+     font-family: 'Forum', serif;
+    color: rgba(23, 23, 23, 1);
+    font-weight: 400;
+    font-size: 64px;
+}
+.room-options{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    align-items: center;
+}

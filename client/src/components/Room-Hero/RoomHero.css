@@ -1,0 +1,39 @@
+.room-container{
+    height: 100vh;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, rgba(34, 33, 33, 1), rgba(34, 33, 33, 0.24), rgba(34, 33, 33, 1));
+    position: relative;
+    overflow: visible;
+    
+}
+.room-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 100px 100px;
+}
+.room-line{
+    border-left: 2px solid;
+    border-color: rgba(255, 255, 255, 1);
+    height: 105px;
+}
+.room-hero p{
+    font-weight: 300;
+    font-weight: 24px;
+    text-transform: uppercase;
+    color: rgba(191, 151, 102, 1);
+    letter-spacing: 5px;
+    height: 36px;
+    width: 168px;
+}
+.room-hero h2{
+    font-family: 'Forum', serif;
+    font-weight: 400;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 1);
+    width: 709px;
+}
+.room-options{
+    display: flex;
+    flex-direction: column;
+}

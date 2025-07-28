@@ -1,0 +1,68 @@
+.news-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 120px 120px;
+}
+.news-line{
+    border-left: 2px solid;
+    border-color: rgba(191, 151, 102, 1);
+    height: 105px;
+}
+.news-container p{
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgba(191, 151, 102, 1);
+    letter-spacing: 6px;
+}
+.news-container h1{
+    font-weight: 400;
+    font-size: 64px;
+    font-family: 'Forum', serif;
+    color: rgba(23, 23, 23, 1);
+}
+.news-update{
+    display: flex;
+    justify-content: space-between;
+}
+.news-about-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 15px;
+    padding: 12px 15px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgba(189, 189, 189, 1);
+    width: 189px;
+    height: 44px;
+     align-items: center;
+}
+.news-about-btn p{
+    color: rgba(189, 189, 189, 1);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.news-about-btn img{
+    width: 7px;
+    height: 14px;
+}
+
+.news-images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.news-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.news-container .cta{
+    margin-top: 150px;
+}

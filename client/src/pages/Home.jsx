@@ -3,6 +3,7 @@ import Header from '../components/Header/Header'
 import HotelInfo from '../components/HotelInfo/HotelInfo'
 import RoomOptions from '../components/RoomOptions/RoomOptions'
 import Testimonials from '../components/Testimonials/Testimonials'
+import Team from '../components/Team/Team'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <HotelInfo />
         <RoomOptions />
         <Testimonials />
+        <Team />
     </div>
   )
 }

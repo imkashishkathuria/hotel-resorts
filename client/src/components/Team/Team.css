@@ -1,0 +1,33 @@
+.team-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 60px;
+    background-color: rgba(45, 44, 44, 1);
+}
+.team-line{
+    border-left: 2px solid;
+    border-color: rgba(255, 255, 255, 1);
+    height: 105px;
+}
+.team-container p{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: rgba(191, 151, 102, 1);
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.team-container h1{
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+     font-family: 'Forum', serif;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+

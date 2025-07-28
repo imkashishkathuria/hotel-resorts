@@ -1,0 +1,31 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px 50px;
+    align-items: center;
+    background: rgba(45, 44, 44, 1);
+}
+.services-line{
+    border-left: 2px solid;
+    border-color: rgba(255, 255, 255, 1);
+    height: 105px;
+}
+.services-container p{
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: rgba(191, 151, 102, 1);
+    letter-spacing: 2px;
+}
+.services-container h2{
+    font-family: 'Forum', serif;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 64px;
+}
+.services-images{
+    display: flex;
+    justify-content: space-between;
+    gap:50px
+}

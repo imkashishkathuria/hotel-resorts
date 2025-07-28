@@ -6,8 +6,8 @@ const HeroRoomOptions = () => {
   return (
     <div className='hero-room-container'>
       <div className='hero-room-line' />
-      <p>our room choices</p>
-      <h1>Luxury Rooms & Suites</h1>
+      <p className='hero-room-p'>our room choices</p>
+      <h1 className='hero-room-h'>Luxury Rooms & Suites</h1>
       <div className='room-options'>
       <RoomOptionsCard heading="Superior Suite" price="$300/Night" />
       <RoomOptionsCard heading="Junior Suite" price="$270/Night" reverse={true} />

@@ -1,0 +1,70 @@
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 130px;
+    align-items: center;
+}
+.info-container img{
+    width: 108px;
+    height: 108px;
+    margin-left: -150px;
+}
+.rectangle{
+    width: 491px;
+    height: 583px;
+    background-color: rgba(217, 217, 217, 1);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap:12px
+}
+.about-heading{
+    color: rgba(191, 151, 102, 1);
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.about h1{
+    font-family: 'Forum', serif;
+    color: rgba(23, 23, 23, 1);
+    font-weight: 400;
+    font-size: 64px;
+    width: 607px;
+}
+.lorem{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(87, 86, 86, 1);
+    width: 607px;
+    height: 108px;
+}
+.about-line{
+    border-left: 2px solid;
+    border-color: rgba(191, 151, 102, 1);
+    height: 105px;
+    margin-bottom: 20px;
+}
+.about-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 15px;
+    padding: 12px 15px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgba(191, 151, 102, 1);
+    width: 189px;
+     align-items: center;
+}
+.about-btn img{
+    width: 7px;
+    height: 14px;
+}
+.about-btn p{
+    color: rgba(191, 151, 102, 1);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+}

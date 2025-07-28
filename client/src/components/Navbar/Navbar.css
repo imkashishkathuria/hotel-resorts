@@ -8,7 +8,7 @@
 .logo{
     width: 228px;
     height: 58px;
-    object-fit:contain;
+    object-fit: contain;
 }
 .icon{
     display: flex;

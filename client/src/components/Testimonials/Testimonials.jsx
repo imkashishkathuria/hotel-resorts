@@ -1,5 +1,6 @@
 import React from 'react'
 import './Testimonials.css'
+import Modal from '../Modal/Modal'
 
 const Testimonials = () => {
   return (

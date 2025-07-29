@@ -1,6 +1,7 @@
 import React from 'react'
 import './RoomOptions.css'
 import RoomCards from '../RoomCards/RoomCards'
+import Modal from '../Modal/Modal'
 
 const RoomOptions = () => {
   return (
@@ -18,6 +19,7 @@ const RoomOptions = () => {
       <div className='dots'>
       <img src='/Slider.png' />
       </div>
+     
     </div>
   )
 }

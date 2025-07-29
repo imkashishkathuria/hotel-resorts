@@ -28,7 +28,7 @@ const Navbar = () => {
             <li>Home</li>
             <img src='XMLID_55_ (1).png' className='icon-img' />
           </div>
-          <li>About</li>
+          <li onClick={() => navigate("/room")}>Room</li>
           <li>Service</li>
           <div className='nav-pages' ref={dropdownRef}  >
           <div className='icon'onClick={() => setOpenDropdown(prev=> !prev)}>

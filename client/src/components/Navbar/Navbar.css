@@ -34,23 +34,32 @@
     font-weight: 300;
     font-size: 16px;
     align-items: center;
-    transition: transform 0.2s ease;
+    transition: color 0.1s ease, font-weight 0.2s ease, transform 0.3s ease;
 }
 .nav ul li:hover{
      color: rgba(191, 151, 102, 1);
     font-weight: 400;
+    transform: scale(1.05);
 }
 .nav-drdn{
     position: absolute;
     top: 50px;
     display: flex;
     flex-direction: column;
-    
     gap: 10px;
     padding: 20px 20px;
     width: 160px;
     background: rgba(255, 255, 255, 1);
     margin-left: -40px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: color 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+.nav-pages:hover, .nav-drdn{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 .nav-drdn p{
     font-weight: 300;

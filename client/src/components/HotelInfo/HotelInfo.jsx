@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './HotelInfo.css'
+import { toast } from 'react-hot-toast'
 
 const HotelInfo = () => {
   const [text, setText] = useState("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
@@ -9,6 +10,7 @@ const HotelInfo = () => {
     setIsEditing(false);
     localStorage.setItem("inlinetext", text);
     console.log("Text Updated");
+    toast.success("Text Updated");
     fetch("http://127.0.0.1:5000/update-section", {
       method: "POST",
       headers: {

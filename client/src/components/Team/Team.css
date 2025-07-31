@@ -30,4 +30,8 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.upload-img img{
+     height: 395px;
+     width: 300px;
+}
 

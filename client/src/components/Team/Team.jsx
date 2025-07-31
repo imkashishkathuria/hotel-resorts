@@ -33,13 +33,13 @@ const Team = () => {
     console.log(formData)
 
     try {
-      const res = await fetch('http://127.0.0.1:5000/upload', {
+      const res = await fetch('https://hotel-resorts-4.onrender.com/upload', {
         method: "POST",
         body: formData,
       });
       const data = await res.json();
       if (res.ok) {
-        const full_url = `http://127.0.0.1:5000${data.url}`;
+        const full_url = `https://hotel-resorts-4.onrender.com${data.url}`;
         setImageURL(full_url);
         localStorage.setItem("UploadedImage", full_url);
         toast.success("Image Uploaded");

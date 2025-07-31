@@ -14,7 +14,7 @@ const HotelInfo = () => {
     localStorage.setItem("inlinetext", text);
     console.log("Text Updated");
     toast.success("Text Updated");
-    fetch("https://hotel-resorts-4.onrender.com/update-section", {
+    fetch("https://hotel-resorts-5.onrender.com/update-section", {
       method: "POST",
       headers: {
         'Content-type':'application/json',
